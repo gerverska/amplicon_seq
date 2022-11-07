@@ -27,7 +27,7 @@ conda config --add channels anaconda
 conda install -c bioconda pheniqs cutadapt ngs-bits itsx vsearch diamond megan
 conda deactivate
 
-# Create an environment for R packages
+# Create an environment for R and R packages
 conda create -p $r
 conda activate $r
 conda config --add channels conda-forge

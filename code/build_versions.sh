@@ -28,7 +28,7 @@ conda install -c bioconda pheniqs=2.0.6 cutadapt=2.6 ngs-bits=2019_09 \
 itsx=1.1.3 vsearch=2.18.0 diamond=0.9.24 megan=6.12.3
 conda deactivate
 
-# Create an environment for R packages
+# Create an environment for R and R packages
 conda create -p $r
 conda activate $r
 conda config --add channels conda-forge
