@@ -11,7 +11,7 @@ source = code
 # Build conda environments
 renv = renv/library
 build : $(renv)
-$(renv) : $(source)/build.sh
+$(renv) : $(source)/build_versions.sh
 	bash -i $<
 
 # Download reads
