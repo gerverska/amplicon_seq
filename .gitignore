@@ -1,0 +1,6 @@
+amplicon_seq.Rproj
+conda/r/
+conda/cli/
+.Rprofile
+.Rproj.user/
+renv/
