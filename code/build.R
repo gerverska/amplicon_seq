@@ -7,4 +7,4 @@ options(renv.config.auto.snapshot = F)
 renv::init(bare = T)
 
 # Begin to build libraries from the lock file
-renv::restore(prompt = T)
+renv::restore(prompt = F)
